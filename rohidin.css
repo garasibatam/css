@@ -1,13 +1,77 @@
+/* Circle */
+.hover15 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0px !important;
+    overflow: hidden;
+
+}
+
+.hover15::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(244,229,172,.4);
+    border-radius: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.hover15:hover::before {
+    -webkit-animation: circle .75s;
+    animation: circle .75s;
+}
+.hover15 img{
+  transition: all .3s;
+}
+.hover15:hover img{
+  transform: scale(1.2);
+}
+@-webkit-keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+@keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+
 .owl-carousel  .owl-nav .owl-prev:focus,
 .owl-carousel  .owl-nav .owl-next:focus {
   outline:none;
 }
+
 
 .owl-carousel .owl-nav button.owl-next, 
 .owl-carousel .owl-nav button.owl-prev, 
 .owl-carousel button.owl-dot{
   outline: none;
 }
+
 
 /*common styling end*/
 
@@ -53,6 +117,8 @@
  
 }
 
+
+
 .idr_001  .owl-carousel .owl-nav button.owl-next {
     position: absolute;
     top: 42%;
@@ -90,6 +156,8 @@
     color: #fff;
 }
 
+
+
 .idr_001 .owl-arrow .owl-nav {
   position: absolute;
   top: 0;
@@ -122,12 +190,15 @@
     box-shadow:none;
 }
 
+
 /*// sec 01 end*/
+
 
 /*idr_002 start*/
 .idr_002{
     overflow: hidden;
 }
+
 
 .idr_002 .product-grid3{
   border:none;
@@ -170,8 +241,8 @@
 
 .idr_002  .owl-carousel .owl-nav button.owl-next {
     position: absolute;
-    top: 42%;
-    right: -40px;
+    top: 50%;
+    right: 20px;
     padding: 0px 1px !important;
     background: rgb(255, 255, 255);
     display: inline-block;
@@ -188,8 +259,8 @@
 }
 .idr_002  .owl-carousel .owl-nav button.owl-prev {
    position: absolute;
-    top: 42%;
-    left: -40px;
+    top: 50%;
+    left: 20px;
     padding: 0px 1px !important;
     background: rgb(255, 255, 255);
     display: inline-block;
@@ -219,15 +290,18 @@
 }
 /* //idr_002 end*/
 
+
 /*idr_002 start*/
 .idr_003{
     overflow: hidden;
 }
 
+
 .idr_003 .product-grid3{
   border:none;
   box-shadow: none;
 }
+
 
 .idr_003  .owl-carousel .owl-nav button.owl-next {
     position: absolute;
@@ -282,6 +356,7 @@
 .idr_003 .round_icon_img i{
    font-size: 70px;
     color: #a5ca34;
+
 }
 
 .idr_003 .btn-primary{
@@ -292,4 +367,3 @@
 .idr_003 .btn-primary:hover, .idr_003 .btn-primary:focus, .idr_003 .btn-primary:active{
   background:#708e15; 
 }
-/* //idr_002 end*/
