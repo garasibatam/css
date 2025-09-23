@@ -1,0 +1,295 @@
+.owl-carousel  .owl-nav .owl-prev:focus,
+.owl-carousel  .owl-nav .owl-next:focus {
+  outline:none;
+}
+
+.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-prev, 
+.owl-carousel button.owl-dot{
+  outline: none;
+}
+
+/*common styling end*/
+
+/*------/ Owl carousel /------*/
+/* idr_001 */
+.idr_001 .owl-theme .owl-dots {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.idr_001 .owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+}
+
+.idr_001  .owl-theme .owl-dots .owl-dot span {
+  width: 12px;
+  height: 12px;
+  margin: 5px 5px;
+  background: #ff5e14;
+  border: 0px solid #ff5e14;
+  display: block;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  border-radius: 50%; 
+}
+
+.idr_001  .owl-theme .owl-dots .owl-dot:hover span {
+  color: #fff;
+  background: #ff5e14;
+/*  border: 5px double;*/
+  padding:5px; 
+  border-radius: 50%; 
+}
+
+.idr_001  .owl-theme .owl-dots .owl-dot.active span {
+  color: #fff;
+  background: var(--light_orange);
+  /* border: 5px double;*/
+  opacity:0.8;
+  padding:5px; 
+  border-radius: 50%; 
+  background:var(--light_orange);
+ 
+}
+
+.idr_001  .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 42%;
+    right: -40px;
+     padding: 0px 15px 6px 15px !important;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    font-size: 35px;
+    line-height: 35px;
+    color: #e0571d;
+    box-shadow: 0 0 8px rgba(0,0,0,.25);
+}
+.idr_001  .owl-carousel .owl-nav button.owl-next:hover {
+    background:#ff5e14;
+    color: #fff;
+}
+.idr_001  .owl-carousel .owl-nav button.owl-prev {
+   position: absolute;
+    top: 42%;
+    left: -40px;
+    padding: 0px 15px 6px 15px !important;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    font-size: 35px;
+    line-height: 35px;
+    color: #e0571d;
+    box-shadow: 0 0 8px rgba(0,0,0,.25);
+}
+.idr_001  .owl-carousel .owl-nav button.owl-prev:hover {
+    background:#ff5e14;
+    color: #fff;
+}
+
+.idr_001 .owl-arrow .owl-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.8rem;
+}
+
+.idr_001 .owl-arrow .owl-nav .owl-prev,
+.idr_001 .owl-arrow .owl-nav .owl-next {
+  display: inline-block;
+  transition: all 0.6s ease-in-out;
+  color: #000000;
+}
+
+.idr_001 .main_services {
+    position: relative;
+    margin: 30px 0px 40px 0px;
+    padding: 40px 15px 32px 15px;
+    overflow: hidden;
+    text-align: center;
+     border: 1px solid transparent; 
+    border-radius: 8px 8px;
+    /* box-shadow: 12px 14px 0 #ececec; */
+    box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+    min-height: 348px;
+}
+
+.idr_001 .main_services:hover {
+     border: 1px solid #ededed ; 
+    box-shadow:none;
+}
+
+/*// sec 01 end*/
+
+/*idr_002 start*/
+.idr_002{
+    overflow: hidden;
+}
+
+.idr_002 .product-grid3{
+  border:none;
+  box-shadow: none;
+}
+
+.idr_002 .owl-theme .owl-dots {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.idr_002 .owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+}
+
+.idr_002  .owl-theme .owl-dots .owl-dot span {
+    width: 9px;
+    height: 9px;
+    margin: 4px;
+    border: 2px solid #94a5b4;
+    display: block;
+    -webkit-backface-visibility: visible;
+    -webkit-transition: opacity 200ms ease;
+    -moz-transition: opacity 200ms ease;
+    -ms-transition: opacity 200ms ease;
+    -o-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.idr_002  .owl-theme .owl-dots .owl-dot:hover span {
+     border-color: #2bb0ef;
+}
+
+.idr_002  .owl-theme .owl-dots .owl-dot.active span {
+  border-color: #2bb0ef;
+}
+
+.idr_002  .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 42%;
+    right: -40px;
+    padding: 0px 1px !important;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    transform: translateY(-50%);
+    border-radius: 5px;
+    font-size: 32px;
+    line-height: 32px;
+    color: #2bb0ef;
+    box-shadow: 0 0 8px rgba(0,0,0,.25);
+}
+.idr_002  .owl-carousel .owl-nav button.owl-next:hover {
+    background:#2bb0ef;
+    color: #fff;
+}
+.idr_002  .owl-carousel .owl-nav button.owl-prev {
+   position: absolute;
+    top: 42%;
+    left: -40px;
+    padding: 0px 1px !important;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    transform: translateY(-50%);
+   border-radius: 5px;
+   font-size: 32px;
+    line-height: 32px;
+    color: #2bb0ef;
+    box-shadow: 0 0 8px rgba(0,0,0,.25);
+}
+.idr_002  .owl-carousel .owl-nav button.owl-prev:hover {
+    background:#2bb0ef;
+    color: #fff;
+}
+.idr_002 .owl-arrow .owl-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.8rem;
+}
+
+.idr_002 .owl-arrow .owl-nav .owl-prev,
+.idr_002 .owl-arrow .owl-nav .owl-next {
+  display: inline-block;
+  transition: all 0.6s ease-in-out;
+  color: #000000;
+}
+/* //idr_002 end*/
+
+/*idr_002 start*/
+.idr_003{
+    overflow: hidden;
+}
+
+.idr_003 .product-grid3{
+  border:none;
+  box-shadow: none;
+}
+
+.idr_003  .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 42%;
+    right: -40px;
+    padding: 0px 5px !important;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    transform: translateY(-50%);
+    border-radius: 5px;
+    font-size: 32px;
+    line-height: 32px;
+    color: #a5ca34;
+    box-shadow: 0 0 8px rgba(0,0,0,.25);
+}
+.idr_003  .owl-carousel .owl-nav button.owl-next:hover {
+    background:#a5ca34;
+    color: #fff;
+}
+.idr_003  .owl-carousel .owl-nav button.owl-prev {
+   position: absolute;
+    top: 42%;
+    left: -40px;
+    padding: 0px 5px !important;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    transform: translateY(-50%);
+   border-radius: 5px;
+   font-size: 32px;
+    line-height: 32px;
+    color: #a5ca34;
+    box-shadow: 0 0 8px rgba(0,0,0,.25);
+}
+.idr_003  .owl-carousel .owl-nav button.owl-prev:hover {
+    background:#a5ca34;
+    color: #fff;
+}
+.idr_003 .owl-arrow .owl-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.8rem;
+}
+
+.idr_003 .owl-arrow .owl-nav .owl-prev,
+.idr_003 .owl-arrow .owl-nav .owl-next {
+  display: inline-block;
+  transition: all 0.6s ease-in-out;
+  color: #a5ca34;
+}
+
+.idr_003 .round_icon_img i{
+   font-size: 70px;
+    color: #a5ca34;
+}
+
+.idr_003 .btn-primary{
+  background:#a5ca34; 
+  border-color: #a5ca34;
+}
+
+.idr_003 .btn-primary:hover, .idr_003 .btn-primary:focus, .idr_003 .btn-primary:active{
+  background:#708e15; 
+}
+/* //idr_002 end*/
